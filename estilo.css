@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #003366; /* Azul-marinho ALAHER */
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+td {
+  border-top: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f5fa;
+}
+
+tr:hover {
+  background-color: #e5eefc;
+  transition: background-color 0.3s ease;
+}
+
+caption {
+  caption-side: top;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.botao {
+  display: inline-block;
+  padding: 8px 14px;
+  margin: 4px 2px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.botao-editar {
+  background-color: #2980b9;
+}
+
+.botao-editar:hover {
+  background-color: #21618c;
+}
+
+.botao-excluir {
+  background-color: #c0392b;
+}
+
+.botao-excluir:hover {
+  background-color: #922b21;
+}
+
+.botao-alaher {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-right: 5px;
+  display: inline-block;
+  transition: background 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.botao-alaher:hover {
+  background-color: #1e8449;
+}
+
+.botao-secundario {
+  background-color: #34495e;
+}
+
+.botao-secundario:hover {
+  background-color: #2c3e50;
+}
+
+.acoes-botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-start;
+}
